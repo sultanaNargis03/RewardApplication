@@ -42,7 +42,7 @@ public class TransactionService implements TransactionInterface
 	{
 		
 		 earnPoints(user, amount);
-	     System.out.println(user.getName() + " spent " + amount + " rs. Earned " + (amount / 100) + " points.");
+	     //System.out.println(user.getName() + " spent " + amount + " rs. Earned " + (amount / 100) + " points.");
 		
 	}
 	public void earnPoints(User user, int amount) 
